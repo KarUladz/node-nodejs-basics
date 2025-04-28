@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import { existsSync } from "node:fs";
-import { join } from "path";
+import { join } from "node:path";
 
 import { FOLDER, ERROR_MSG } from "./constants.js";
 import { returnPathToFolder } from "./helper.js";
